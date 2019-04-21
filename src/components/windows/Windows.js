@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Wallpaper from './wallpaper/Wallpaper';
-import TaskBar from './taskbar/TaskBar';
+import TaskBar from './TaskBar/TaskBar';
 import './Windows.scss';
 
 class Windows extends Component {
