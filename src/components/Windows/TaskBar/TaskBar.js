@@ -3,6 +3,8 @@ import './TaskBar.scss';
 import background from './background.png';
 import StartButton from './StartButton/StartButton';
 import TaskBarButton from './TaskBarButton/TaskBarButton';
+import TaskBarClock from './TaskBarClock/TaskBarClock';
+
 
 class TaskBar extends Component {
   
@@ -17,6 +19,7 @@ class TaskBar extends Component {
       }}>
         <StartButton></StartButton>
         <TaskBarButton></TaskBarButton>
+        <TaskBarClock></TaskBarClock>
       </div>
     );
   }
