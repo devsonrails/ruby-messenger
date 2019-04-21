@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Windows from './components/windows/Windows';
+import Windows from './components/Windows/Windows';
 import './App.scss';
 
 class App extends Component {
