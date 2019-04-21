@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './TaskBar.scss';
 import background from './background.png';
 import StartButton from './StartButton/StartButton';
+import TaskBarButton from './TaskBarButton/TaskBarButton';
 
 class TaskBar extends Component {
   
@@ -15,6 +16,7 @@ class TaskBar extends Component {
         backgroundImage: `url(${background})`
       }}>
         <StartButton></StartButton>
+        <TaskBarButton></TaskBarButton>
       </div>
     );
   }
