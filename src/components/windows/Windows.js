@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Wallpaper from './wallpaper/Wallpaper';
-// import TaskBar from './TaskBar/TaskBar';
+import Wallpaper from './Wallpaper/Wallpaper';
+import TaskBar from './TaskBar/TaskBar';
 import './Windows.scss';
 
 class Windows extends Component {
@@ -9,7 +9,7 @@ class Windows extends Component {
       <div className="Windows">
         <Wallpaper></Wallpaper>
         {this.props.children}
-        {/* <TaskBar></TaskBar> */}
+        <TaskBar></TaskBar>
       </div>
     );
   }
