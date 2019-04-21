@@ -6,9 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Windows>
-          
-        </Windows>
+        <Windows></Windows>
       </div>
     );
   }
