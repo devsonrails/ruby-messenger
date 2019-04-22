@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Windows from './components/Windows/Windows';
+import OS from './components/OS/OS';
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Windows></Windows>
+        <OS></OS>
       </div>
     );
   }
