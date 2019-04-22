@@ -1,0 +1,12 @@
+.StartButton {
+  width: 98px;
+  background-repeat: no-repeat;
+  float: left;
+  height: 46px;
+}
+.StartButton:hover{
+  background-position: 0px -54px;
+}
+.StartButton:active{
+  background-position: 0px -108px;
+}

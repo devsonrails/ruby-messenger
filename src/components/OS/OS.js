@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Wallpaper from './Wallpaper/Wallpaper';
 import TaskBar from './TaskBar/TaskBar';
-import './Windows.scss';
+import './OS.scss';
 
-class Windows extends Component {
+class OS extends Component {
   render() {
     return (
       <div className="Windows">
@@ -15,4 +15,4 @@ class Windows extends Component {
   }
 }
 
-export default Windows;
+export default OS;

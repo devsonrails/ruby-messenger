@@ -1,0 +1,22 @@
+.TaskBarClock {
+  background-repeat: repeat-x;
+  float: right;
+  height: 30px;
+  margin-left: 10px;
+  width: 134px;
+  .arrow{
+    background-image: url(./arrow.png);
+    height: inherit;
+    background-repeat: no-repeat;
+    float: left;
+    width: 20px;
+  }
+  .clock{
+    margin-top: 8px;
+    float: left;
+    font-size: 11px;
+    color: #FFF;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+}
