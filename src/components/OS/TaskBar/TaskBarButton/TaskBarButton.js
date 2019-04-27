@@ -14,11 +14,11 @@ class TaskBarButton extends Component {
     let {label, icon, window} = this.state
     
     return (
-      <div className="TaskBarButton" style={{
+      <div keyWindow={window} className="TaskBarButton" style={{
         backgroundImage: `url(${image_button})`
       }}>
         <span>
-          <i className={icon}></i>{{label}}
+          <i className={icon}></i>{label}
         </span>
       </div>
     );
