@@ -9,8 +9,8 @@ class Window extends Component {
     keyWindow: null
   }
 
-  construct(props) {
-    console.log(props)
+  constructor(props) {
+    super(props)
     this.setState({
       keyWindow: props.keyWindow
     })
