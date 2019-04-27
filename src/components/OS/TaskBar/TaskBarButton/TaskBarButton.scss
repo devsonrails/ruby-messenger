@@ -4,10 +4,23 @@
   height: 30px;
   margin-left: 10px;
   width: 134px;
+  .icon {
+    width: 14px;
+    float: left;
+    margin-left: 6px;
+    margin-top: 9px;
+  }
+  span {
+    color: #fff;
+    font-size: 9px;
+    margin-top: 11px;
+    float: left;
+    margin-left: 6px;
+  }
 }
-.TaskBarButton:hover{
+.TaskBarButton:hover {
   background-position: 0px -30px;
 }
-.TaskBarButton:active{
+.TaskBarButton:active {
   background-position: 0px -60px;
 }

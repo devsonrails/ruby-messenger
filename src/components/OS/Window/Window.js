@@ -1,21 +1,34 @@
 import React, { Component } from 'react';
+import TitleBarWindow from './TitleBarWindow/TitleBarWindow';
 import './Window.scss';
 
 
 class Window extends Component {
   
   state = {
-    image: image
+    keyWindow: null
   }
 
+  construct(props) {
+    console.log(props)
+    this.setState({
+      keyWindow: props.keyWindow
+    })
+  }
+  
   render() {
+    
+    let {keyWindow} = this.state
+    
     return (
       <div className="Window" style={{
         overflow: 'hidden',
         width: '300px',
         height: '300px'
       }}>
-      
+        <TitleBarWindow>
+          {keyWindow}
+        </TitleBarWindow>      
       </div>
     );
   }

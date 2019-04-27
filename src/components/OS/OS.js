@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Wallpaper from './Wallpaper/Wallpaper';
 import TaskBar from './TaskBar/TaskBar';
+import Window from './Window/Window';
 import './OS.scss';
 
 class OS extends Component {
@@ -10,6 +11,7 @@ class OS extends Component {
         <Wallpaper></Wallpaper>
         {this.props.children}
         <TaskBar></TaskBar>
+        <Window keyWindow={123}></Window>
       </div>
     );
   }
