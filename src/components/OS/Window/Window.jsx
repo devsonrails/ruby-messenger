@@ -20,7 +20,11 @@ class Window extends Component {
           {keyWindow}
         </TitleBarWindow>
         <div className="WindowHeader">
-
+          <div className="WindowHeaderContent">
+          </div>
+          <div className="bottomBorder">
+          
+          </div>
         </div>
         <div className="WindowBody">
         </div>      
