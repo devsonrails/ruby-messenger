@@ -1,5 +1,22 @@
-.TitleBarWindow{
+@import '../../../../Constants.scss';
+
+.TitleBarWindow {
   width: 100%;
-  height: 30px;
-  background-color: #0A0;
+  height: 32px;
+  background: $defaultGradiente;
+  border-radius: 5px 5px 0 0;
+  .icon {
+    height: 20px;
+    width: 20px;
+    display: block;
+    float: left;
+    background-color: aqua;
+    margin: 5px 3px 0px 3px;
+  }
+  .title {
+    color: #fff;
+    line-height: 28px;
+    margin-left: 3px;
+    font-size: 14px;
+  }
 }

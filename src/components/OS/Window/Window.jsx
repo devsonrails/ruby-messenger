@@ -6,29 +6,24 @@ import './Window.scss';
 class Window extends Component {
   
   state = {
-    keyWindow: null
+    keyWindow: 123
   }
 
-  constructor(props) {
-    super(props)
-    this.setState({
-      keyWindow: props.keyWindow
-    })
-  }
-  
   render() {
-    
     let {keyWindow} = this.state
     
     return (
       <div className="Window" style={{
-        overflow: 'hidden',
-        width: '300px',
-        height: '300px'
+        overflow: 'hidden'
       }}>
         <TitleBarWindow>
           {keyWindow}
-        </TitleBarWindow>      
+        </TitleBarWindow>
+        <div className="WindowHeader">
+
+        </div>
+        <div className="WindowBody">
+        </div>      
       </div>
     );
   }

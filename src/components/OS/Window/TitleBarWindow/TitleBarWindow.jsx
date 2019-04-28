@@ -7,7 +7,10 @@ class TitleBarWindow extends Component {
   render() {
     return (
       <div className="TitleBarWindow">
-        {this.props.children}      
+        <i className="icon"></i>
+        <span className="title">
+          {this.props.children}      
+        </span>
       </div>
     );
   }
